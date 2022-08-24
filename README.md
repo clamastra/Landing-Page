@@ -1,0 +1,2 @@
+# Landing-Page
+This is my second project on The Odin Project, in which I will be designing the landing page of a website. I will be utilizing the basic HTML and CSS I have learned up until this point from about 2.5 weeks of work, especially utilizing the skills I've learned from flexbox over the past few days. If you are seeing this project, feel free to leave any comments or criticisms- I am always thankful for any feedback in the name of improvement.
