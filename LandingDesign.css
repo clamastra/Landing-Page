@@ -1,0 +1,16 @@
+.whole-page {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+    justify-items: left;
+}
