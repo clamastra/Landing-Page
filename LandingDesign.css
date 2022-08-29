@@ -1,16 +1,93 @@
 .whole-page {
     display: flex;
+    flex-direction: column;
+    margin: 0px;
+    border: 0px;
+}
+
+.logo {
+    color: #F9FAF8;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px;
+    margin-left: 100px;
 }
 
 .header {
     display: flex;
+    flex-wrap: nowrap;
+    background-color: #1f2937;
+    margin: 0px;
+    border: 0px;
+    align-items: center;
+    max-height: 60px;
+    justify-content: space-between;
 }
 
 .link-list {
     display: flex;
+    flex-shrink: 0;
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    gap: 16px;
-    justify-items: left;
+    gap: 24px;
+    margin-right: 100px;
+}
+
+.link-list a{
+    list-style-type: none;
+    color: rgb(172, 172, 172);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.top-content {
+    background-color: #1f2937;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 60px;
+}
+
+.top-left-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    flex: 1 1 0px;
+    height: 220px;
+}
+
+#hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#sign-up-button {
+    max-width: 90px;
+    max-height: 26px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.placeholder {
+    display: flex;
+    flex: 1 1 0px;
+    height: 220px;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    background-color: rgb(172, 172, 172);
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
